@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Pharma Garde",
+  "description": "Une application web pour trouver facilement les pharmacies de garde, les pharmacies proches, les centres de santé et les hôpitaux, initialement testée au Cameroun.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

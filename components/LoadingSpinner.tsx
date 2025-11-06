@@ -1,0 +1,17 @@
+
+import React from 'react';
+
+interface LoadingSpinnerProps {
+    message?: string;
+}
+
+const LoadingSpinner: React.FC<LoadingSpinnerProps> = ({ message = "Chargement..." }) => {
+  return (
+    <div className="flex flex-col items-center justify-center p-8 text-center text-gray-500">
+      <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-teal-600"></div>
+      <p className="mt-4 font-semibold">{message}</p>
+    </div>
+  );
+};
+
+export default LoadingSpinner;
